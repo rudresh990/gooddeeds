@@ -73,28 +73,42 @@
         <div class="container">
             <h2>Help Save Ill Puppies</h2>
             <p>Your donation can provide life-saving treatment, food, and shelter for sick and abandoned puppies.</p>
-            <div id="puppyCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="puppy_care.jpg" class="d-block w-100" alt="Puppy 1">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="puppy_care2.jpg" class="d-block w-100" alt="Puppy 2">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="puppy_care3.jpg" class="d-block w-100" alt="Puppy 3">
+            <div class="row">
+                <div class="col-md-6">
+                    <div id="puppyCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="puppy_care.jpg" class="d-block w-100" alt="Puppy 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="puppy_care2.jpg" class="d-block w-100" alt="Puppy 2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="puppy_care3.jpg" class="d-block w-100" alt="Puppy 3">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#puppyCarousel" role="button" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#puppyCarousel" role="button" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </a>
                     </div>
                 </div>
-                <a class="carousel-control-prev" href="#puppyCarousel" role="button" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#puppyCarousel" role="button" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </a>
+                <div class="col-md-6 text-start">
+                    <h4>How Your Donation Helps</h4>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">🐾 Provides emergency medical care for sick puppies.</li>
+                        <li class="list-group-item">🍲 Ensures proper nutrition and vaccinations.</li>
+                        <li class="list-group-item">🏡 Supports rescue shelters and adoption efforts.</li>
+                        <li class="list-group-item">💖 Gives abandoned puppies a second chance at life.</li>
+                    </ul>
+                </div>
             </div>
-            <h2>Why Choose GoodDeeds?</h2>
+        </div>
+            <h2 style="margin: 10px;">Why Choose GoodDeeds?</h2>
             <div class="row mt-4">
                 <div class="col-md-4">
                     <div class="feature-icon">❤️</div>
@@ -111,7 +125,8 @@
                     <h4>Community Driven</h4>
                     <p>Powered by people like you.</p>
                 </div>
-            <a href="#donate" class="btn btn-danger btn-lg mt-3">Donate to Save Puppies</a>
+            </div>
+            <a href="#donate" class="btn btn-danger btn-lg mt-3" style="width: auto" >Donate to Save Puppies</a>
         </div>
     </section>
     <section id="donate" class="py-5 text-center">
